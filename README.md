@@ -18,7 +18,9 @@
   ## Usage
   N/A
 
-  ## LicenseFor more information on this license, please visit undefined
+  ## License
+    For more information on this license, please visit undefined
+    
 
   ## Contributors
   None

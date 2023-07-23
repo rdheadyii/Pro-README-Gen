@@ -11,6 +11,8 @@ function renderLicenseBadge(license) {
 
 // function for license link
 function renderLicenseLink(license) {
+  let link = "";
+
   switch(license) {
     case "MIT":
       link = "https://mit-license.org/";
@@ -39,8 +41,9 @@ function renderLicenseSection(license) {
   let lSect = "";
 
   if(license !== "None") {
-    lSect +=`## License`;
-    lSect += "For more information on this license, please visit " + renderLicenseLink(license);
+    lSect =`## License\n
+    For more information on this license, please visit ${renderLicenseLink(license)}
+    `;
   }
   return lSect;
 }
