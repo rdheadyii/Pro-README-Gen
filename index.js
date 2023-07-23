@@ -17,11 +17,6 @@ const questions = [
     },
     {
         type: "input",
-        message: "Table of Contents",
-        name: 'table of contents'
-    },
-    {
-        type: "input",
         message: "What are the installation instructions for the project?",
         name: 'installation'
     },
@@ -67,9 +62,8 @@ function writeToFile(fileName, data) {
 // function to initialize app
 function init() {
     inquirer.prompt(questions)
-        .then(function(data) {
-            writeToFile("readme.md", generateMarkdown(data));
-            console.log(data);
+        .then(function(answers) {
+            writeToFile("readme.md", generateMarkdown(answers));
         })
 }
 
