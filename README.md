@@ -1,5 +1,5 @@
 # Test
-  ![Badge for License](https://shields.io/badge/license-${data.license}-blue.svg)
+  ![Badge for License](https://shields.io/badge/license-MIT-blue.svg)
 
   ## Description
   Test of Gen
@@ -18,7 +18,7 @@
   ## Usage
   N/A
 
-  undefined
+  ## LicenseFor more information on this license, please visit undefined
 
   ## Contributors
   None
@@ -28,4 +28,5 @@
 
   ## Questions
   rdheadyii@gmail.com
+
   https://github.com/rdheadyii

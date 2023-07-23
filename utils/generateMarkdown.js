@@ -4,7 +4,7 @@ function renderLicenseBadge(license) {
   let badge = "";
 
   if (license !== "None") {
-    badge = "![Badge for License](https://shields.io/badge/license-${data.license}-blue.svg)";
+    badge = "![Badge for License](https://shields.io/badge/license-" + license + "-blue.svg)";
   }
   return badge;
 }
@@ -42,6 +42,7 @@ function renderLicenseSection(license) {
     lSect +=`## License`;
     lSect += "For more information on this license, please visit " + renderLicenseLink(license);
   }
+  return lSect;
 }
 
 // TODO: Create a function to generate markdown for README
@@ -75,7 +76,7 @@ function generateMarkdown(data) {
   ${data.tests}
 
   ## Questions
-  ${data.email}
+  ${data.email}\n
   https://github.com/${data.username}
 `;
 }
