@@ -1,13 +1,16 @@
-# Test
-  ![Badge for License](https://shields.io/badge/license-MIT-blue.svg)
+# Pro-README-Gen
+  
 
   ## Description
-  Test of Gen
+  This project is for generating a Professional README. It is done by running node index.js in the terminal and one will be prompted with questions to answer that will then write those answers to a README.md file. 
+
+  This project is great for sharpening JavaScript skills and getting used to using Node.js
 
   ## Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
   * [License](#license)
+  * [Display](#display)
   * [Contributors](#contributors)
   * [Tests](#tests)
   * [Questions](#questions)
@@ -19,8 +22,9 @@
   N/A
 
   ## License
-    For more information on this license, please visit undefined
-    
+  
+  ## Display
+  ![Display of what terminal looks like](./images/screenshot.PNG)
 
   ## Contributors
   None
