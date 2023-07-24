@@ -1,6 +1,5 @@
 # Pro-README-Gen
   
-
   ## Description
   This project is for generating a Professional README. It is done by running node index.js in the terminal and one will be prompted with questions to answer that will then write those answers to a README.md file. 
 
