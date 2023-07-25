@@ -18,7 +18,7 @@
   npm i
 
   ## Usage
-  N/A
+  Once npm i is used, type node index.js into the terminal to be prompted with questions to answer to generate a README.md.
 
   ## License
   
