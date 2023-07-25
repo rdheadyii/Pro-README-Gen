@@ -15,7 +15,7 @@
   * [Questions](#questions)
 
   ## Installation
-  N/A
+  npm i
 
   ## Usage
   N/A
